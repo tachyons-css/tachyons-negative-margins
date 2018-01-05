@@ -4,7 +4,7 @@ negative-margins CSS module for Tachyons
 
 #### Stats
 
-716 | 140 | 140
+922 | 140 | 140
 ---|---|---
 bytes | selectors | declarations
 
@@ -74,6 +74,8 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
+/* Variables */
+/* Spacing Scale - based on a ratio of 1:2 */
 /*
    TACHYONS - NEGATIVE MARGINS
 
@@ -101,151 +103,151 @@ Running `$ npm start` will process the source css and place the built css in the
      -l  = large
 
 */
-.na1 { margin: undefined; }
-.na2 { margin: undefined; }
-.na3 { margin: undefined; }
-.na4 { margin: undefined; }
-.na5 { margin: undefined; }
-.na6 { margin: undefined; }
-.na7 { margin: undefined; }
-.nl1 { margin-left: undefined; }
-.nl2 { margin-left: undefined; }
-.nl3 { margin-left: undefined; }
-.nl4 { margin-left: undefined; }
-.nl5 { margin-left: undefined; }
-.nl6 { margin-left: undefined; }
-.nl7 { margin-left: undefined; }
-.nr1 { margin-right: undefined; }
-.nr2 { margin-right: undefined; }
-.nr3 { margin-right: undefined; }
-.nr4 { margin-right: undefined; }
-.nr5 { margin-right: undefined; }
-.nr6 { margin-right: undefined; }
-.nr7 { margin-right: undefined; }
-.nb1 { margin-bottom: undefined; }
-.nb2 { margin-bottom: undefined; }
-.nb3 { margin-bottom: undefined; }
-.nb4 { margin-bottom: undefined; }
-.nb5 { margin-bottom: undefined; }
-.nb6 { margin-bottom: undefined; }
-.nb7 { margin-bottom: undefined; }
-.nt1 { margin-top: undefined; }
-.nt2 { margin-top: undefined; }
-.nt3 { margin-top: undefined; }
-.nt4 { margin-top: undefined; }
-.nt5 { margin-top: undefined; }
-.nt6 { margin-top: undefined; }
-.nt7 { margin-top: undefined; }
+.na1 { margin: calc( -1 * .25rem ); }
+.na2 { margin: calc( -1 * .5rem ); }
+.na3 { margin: calc( -1 * 1rem ); }
+.na4 { margin: calc( -1 * 2rem ); }
+.na5 { margin: calc( -1 * 4rem ); }
+.na6 { margin: calc( -1 * 8rem ); }
+.na7 { margin: calc( -1 * 16rem ); }
+.nl1 { margin-left: calc( -1 * .25rem ); }
+.nl2 { margin-left: calc( -1 * .5rem ); }
+.nl3 { margin-left: calc( -1 * 1rem ); }
+.nl4 { margin-left: calc( -1 * 2rem ); }
+.nl5 { margin-left: calc( -1 * 4rem ); }
+.nl6 { margin-left: calc( -1 * 8rem ); }
+.nl7 { margin-left: calc( -1 * 16rem ); }
+.nr1 { margin-right: calc( -1 * .25rem ); }
+.nr2 { margin-right: calc( -1 * .5rem ); }
+.nr3 { margin-right: calc( -1 * 1rem ); }
+.nr4 { margin-right: calc( -1 * 2rem ); }
+.nr5 { margin-right: calc( -1 * 4rem ); }
+.nr6 { margin-right: calc( -1 * 8rem ); }
+.nr7 { margin-right: calc( -1 * 16rem ); }
+.nb1 { margin-bottom: calc( -1 * .25rem ); }
+.nb2 { margin-bottom: calc( -1 * .5rem ); }
+.nb3 { margin-bottom: calc( -1 * 1rem ); }
+.nb4 { margin-bottom: calc( -1 * 2rem ); }
+.nb5 { margin-bottom: calc( -1 * 4rem ); }
+.nb6 { margin-bottom: calc( -1 * 8rem ); }
+.nb7 { margin-bottom: calc( -1 * 16rem ); }
+.nt1 { margin-top: calc( -1 * .25rem ); }
+.nt2 { margin-top: calc( -1 * .5rem ); }
+.nt3 { margin-top: calc( -1 * 1rem ); }
+.nt4 { margin-top: calc( -1 * 2rem ); }
+.nt5 { margin-top: calc( -1 * 4rem ); }
+.nt6 { margin-top: calc( -1 * 8rem ); }
+.nt7 { margin-top: calc( -1 * 16rem ); }
 @media screen and (min-width: 30em) {
- .na1-ns { margin: undefined; }
- .na2-ns { margin: undefined; }
- .na3-ns { margin: undefined; }
- .na4-ns { margin: undefined; }
- .na5-ns { margin: undefined; }
- .na6-ns { margin: undefined; }
- .na7-ns { margin: undefined; }
- .nl1-ns { margin-left: undefined; }
- .nl2-ns { margin-left: undefined; }
- .nl3-ns { margin-left: undefined; }
- .nl4-ns { margin-left: undefined; }
- .nl5-ns { margin-left: undefined; }
- .nl6-ns { margin-left: undefined; }
- .nl7-ns { margin-left: undefined; }
- .nr1-ns { margin-right: undefined; }
- .nr2-ns { margin-right: undefined; }
- .nr3-ns { margin-right: undefined; }
- .nr4-ns { margin-right: undefined; }
- .nr5-ns { margin-right: undefined; }
- .nr6-ns { margin-right: undefined; }
- .nr7-ns { margin-right: undefined; }
- .nb1-ns { margin-bottom: undefined; }
- .nb2-ns { margin-bottom: undefined; }
- .nb3-ns { margin-bottom: undefined; }
- .nb4-ns { margin-bottom: undefined; }
- .nb5-ns { margin-bottom: undefined; }
- .nb6-ns { margin-bottom: undefined; }
- .nb7-ns { margin-bottom: undefined; }
- .nt1-ns { margin-top: undefined; }
- .nt2-ns { margin-top: undefined; }
- .nt3-ns { margin-top: undefined; }
- .nt4-ns { margin-top: undefined; }
- .nt5-ns { margin-top: undefined; }
- .nt6-ns { margin-top: undefined; }
- .nt7-ns { margin-top: undefined; }
+ .na1-ns { margin: calc( -1 * .25rem ); }
+ .na2-ns { margin: calc( -1 * .5rem ); }
+ .na3-ns { margin: calc( -1 * 1rem ); }
+ .na4-ns { margin: calc( -1 * 2rem ); }
+ .na5-ns { margin: calc( -1 * 4rem ); }
+ .na6-ns { margin: calc( -1 * 8rem ); }
+ .na7-ns { margin: calc( -1 * 16rem ); }
+ .nl1-ns { margin-left: calc( -1 * .25rem ); }
+ .nl2-ns { margin-left: calc( -1 * .5rem ); }
+ .nl3-ns { margin-left: calc( -1 * 1rem ); }
+ .nl4-ns { margin-left: calc( -1 * 2rem ); }
+ .nl5-ns { margin-left: calc( -1 * 4rem ); }
+ .nl6-ns { margin-left: calc( -1 * 8rem ); }
+ .nl7-ns { margin-left: calc( -1 * 16rem ); }
+ .nr1-ns { margin-right: calc( -1 * .25rem ); }
+ .nr2-ns { margin-right: calc( -1 * .5rem ); }
+ .nr3-ns { margin-right: calc( -1 * 1rem ); }
+ .nr4-ns { margin-right: calc( -1 * 2rem ); }
+ .nr5-ns { margin-right: calc( -1 * 4rem ); }
+ .nr6-ns { margin-right: calc( -1 * 8rem ); }
+ .nr7-ns { margin-right: calc( -1 * 16rem ); }
+ .nb1-ns { margin-bottom: calc( -1 * .25rem ); }
+ .nb2-ns { margin-bottom: calc( -1 * .5rem ); }
+ .nb3-ns { margin-bottom: calc( -1 * 1rem ); }
+ .nb4-ns { margin-bottom: calc( -1 * 2rem ); }
+ .nb5-ns { margin-bottom: calc( -1 * 4rem ); }
+ .nb6-ns { margin-bottom: calc( -1 * 8rem ); }
+ .nb7-ns { margin-bottom: calc( -1 * 16rem ); }
+ .nt1-ns { margin-top: calc( -1 * .25rem ); }
+ .nt2-ns { margin-top: calc( -1 * .5rem ); }
+ .nt3-ns { margin-top: calc( -1 * 1rem ); }
+ .nt4-ns { margin-top: calc( -1 * 2rem ); }
+ .nt5-ns { margin-top: calc( -1 * 4rem ); }
+ .nt6-ns { margin-top: calc( -1 * 8rem ); }
+ .nt7-ns { margin-top: calc( -1 * 16rem ); }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .na1-m { margin: undefined; }
- .na2-m { margin: undefined; }
- .na3-m { margin: undefined; }
- .na4-m { margin: undefined; }
- .na5-m { margin: undefined; }
- .na6-m { margin: undefined; }
- .na7-m { margin: undefined; }
- .nl1-m { margin-left: undefined; }
- .nl2-m { margin-left: undefined; }
- .nl3-m { margin-left: undefined; }
- .nl4-m { margin-left: undefined; }
- .nl5-m { margin-left: undefined; }
- .nl6-m { margin-left: undefined; }
- .nl7-m { margin-left: undefined; }
- .nr1-m { margin-right: undefined; }
- .nr2-m { margin-right: undefined; }
- .nr3-m { margin-right: undefined; }
- .nr4-m { margin-right: undefined; }
- .nr5-m { margin-right: undefined; }
- .nr6-m { margin-right: undefined; }
- .nr7-m { margin-right: undefined; }
- .nb1-m { margin-bottom: undefined; }
- .nb2-m { margin-bottom: undefined; }
- .nb3-m { margin-bottom: undefined; }
- .nb4-m { margin-bottom: undefined; }
- .nb5-m { margin-bottom: undefined; }
- .nb6-m { margin-bottom: undefined; }
- .nb7-m { margin-bottom: undefined; }
- .nt1-m { margin-top: undefined; }
- .nt2-m { margin-top: undefined; }
- .nt3-m { margin-top: undefined; }
- .nt4-m { margin-top: undefined; }
- .nt5-m { margin-top: undefined; }
- .nt6-m { margin-top: undefined; }
- .nt7-m { margin-top: undefined; }
+ .na1-m { margin: calc( -1 * .25rem ); }
+ .na2-m { margin: calc( -1 * .5rem ); }
+ .na3-m { margin: calc( -1 * 1rem ); }
+ .na4-m { margin: calc( -1 * 2rem ); }
+ .na5-m { margin: calc( -1 * 4rem ); }
+ .na6-m { margin: calc( -1 * 8rem ); }
+ .na7-m { margin: calc( -1 * 16rem ); }
+ .nl1-m { margin-left: calc( -1 * .25rem ); }
+ .nl2-m { margin-left: calc( -1 * .5rem ); }
+ .nl3-m { margin-left: calc( -1 * 1rem ); }
+ .nl4-m { margin-left: calc( -1 * 2rem ); }
+ .nl5-m { margin-left: calc( -1 * 4rem ); }
+ .nl6-m { margin-left: calc( -1 * 8rem ); }
+ .nl7-m { margin-left: calc( -1 * 16rem ); }
+ .nr1-m { margin-right: calc( -1 * .25rem ); }
+ .nr2-m { margin-right: calc( -1 * .5rem ); }
+ .nr3-m { margin-right: calc( -1 * 1rem ); }
+ .nr4-m { margin-right: calc( -1 * 2rem ); }
+ .nr5-m { margin-right: calc( -1 * 4rem ); }
+ .nr6-m { margin-right: calc( -1 * 8rem ); }
+ .nr7-m { margin-right: calc( -1 * 16rem ); }
+ .nb1-m { margin-bottom: calc( -1 * .25rem ); }
+ .nb2-m { margin-bottom: calc( -1 * .5rem ); }
+ .nb3-m { margin-bottom: calc( -1 * 1rem ); }
+ .nb4-m { margin-bottom: calc( -1 * 2rem ); }
+ .nb5-m { margin-bottom: calc( -1 * 4rem ); }
+ .nb6-m { margin-bottom: calc( -1 * 8rem ); }
+ .nb7-m { margin-bottom: calc( -1 * 16rem ); }
+ .nt1-m { margin-top: calc( -1 * .25rem ); }
+ .nt2-m { margin-top: calc( -1 * .5rem ); }
+ .nt3-m { margin-top: calc( -1 * 1rem ); }
+ .nt4-m { margin-top: calc( -1 * 2rem ); }
+ .nt5-m { margin-top: calc( -1 * 4rem ); }
+ .nt6-m { margin-top: calc( -1 * 8rem ); }
+ .nt7-m { margin-top: calc( -1 * 16rem ); }
 }
 @media screen and (min-width: 60em) {
- .na1-l { margin: undefined; }
- .na2-l { margin: undefined; }
- .na3-l { margin: undefined; }
- .na4-l { margin: undefined; }
- .na5-l { margin: undefined; }
- .na6-l { margin: undefined; }
- .na7-l { margin: undefined; }
- .nl1-l { margin-left: undefined; }
- .nl2-l { margin-left: undefined; }
- .nl3-l { margin-left: undefined; }
- .nl4-l { margin-left: undefined; }
- .nl5-l { margin-left: undefined; }
- .nl6-l { margin-left: undefined; }
- .nl7-l { margin-left: undefined; }
- .nr1-l { margin-right: undefined; }
- .nr2-l { margin-right: undefined; }
- .nr3-l { margin-right: undefined; }
- .nr4-l { margin-right: undefined; }
- .nr5-l { margin-right: undefined; }
- .nr6-l { margin-right: undefined; }
- .nr7-l { margin-right: undefined; }
- .nb1-l { margin-bottom: undefined; }
- .nb2-l { margin-bottom: undefined; }
- .nb3-l { margin-bottom: undefined; }
- .nb4-l { margin-bottom: undefined; }
- .nb5-l { margin-bottom: undefined; }
- .nb6-l { margin-bottom: undefined; }
- .nb7-l { margin-bottom: undefined; }
- .nt1-l { margin-top: undefined; }
- .nt2-l { margin-top: undefined; }
- .nt3-l { margin-top: undefined; }
- .nt4-l { margin-top: undefined; }
- .nt5-l { margin-top: undefined; }
- .nt6-l { margin-top: undefined; }
- .nt7-l { margin-top: undefined; }
+ .na1-l { margin: calc( -1 * .25rem ); }
+ .na2-l { margin: calc( -1 * .5rem ); }
+ .na3-l { margin: calc( -1 * 1rem ); }
+ .na4-l { margin: calc( -1 * 2rem ); }
+ .na5-l { margin: calc( -1 * 4rem ); }
+ .na6-l { margin: calc( -1 * 8rem ); }
+ .na7-l { margin: calc( -1 * 16rem ); }
+ .nl1-l { margin-left: calc( -1 * .25rem ); }
+ .nl2-l { margin-left: calc( -1 * .5rem ); }
+ .nl3-l { margin-left: calc( -1 * 1rem ); }
+ .nl4-l { margin-left: calc( -1 * 2rem ); }
+ .nl5-l { margin-left: calc( -1 * 4rem ); }
+ .nl6-l { margin-left: calc( -1 * 8rem ); }
+ .nl7-l { margin-left: calc( -1 * 16rem ); }
+ .nr1-l { margin-right: calc( -1 * .25rem ); }
+ .nr2-l { margin-right: calc( -1 * .5rem ); }
+ .nr3-l { margin-right: calc( -1 * 1rem ); }
+ .nr4-l { margin-right: calc( -1 * 2rem ); }
+ .nr5-l { margin-right: calc( -1 * 4rem ); }
+ .nr6-l { margin-right: calc( -1 * 8rem ); }
+ .nr7-l { margin-right: calc( -1 * 16rem ); }
+ .nb1-l { margin-bottom: calc( -1 * .25rem ); }
+ .nb2-l { margin-bottom: calc( -1 * .5rem ); }
+ .nb3-l { margin-bottom: calc( -1 * 1rem ); }
+ .nb4-l { margin-bottom: calc( -1 * 2rem ); }
+ .nb5-l { margin-bottom: calc( -1 * 4rem ); }
+ .nb6-l { margin-bottom: calc( -1 * 8rem ); }
+ .nb7-l { margin-bottom: calc( -1 * 16rem ); }
+ .nt1-l { margin-top: calc( -1 * .25rem ); }
+ .nt2-l { margin-top: calc( -1 * .5rem ); }
+ .nt3-l { margin-top: calc( -1 * 1rem ); }
+ .nt4-l { margin-top: calc( -1 * 2rem ); }
+ .nt5-l { margin-top: calc( -1 * 4rem ); }
+ .nt6-l { margin-top: calc( -1 * 8rem ); }
+ .nt7-l { margin-top: calc( -1 * 16rem ); }
 }
 ```
 
